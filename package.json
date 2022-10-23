@@ -4,7 +4,8 @@
   "description": "This is chat application , Created by Torikul Islam",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "SET NODE_ENV=development & nodemon index.js",
+    "prod": "NODE_ENV=production node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
